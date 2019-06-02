@@ -1,0 +1,42 @@
+{
+  "name": "mongoinstall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mongo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node git.js",
+    "mongo": "node mongo.js",
+    "angular": "node angular.js",
+    "mysql": "node mysql.js",
+    "mssql": "node mssql.js",
+    "postgres": "node postgres.js",
+    "couchbase": "node couchbase.js",
+    "leveldb": "node levelDB.js",
+    "sqlite": "node sqlite.js",
+    "cassandra": "node cassandra.js",
+    "Neo4j": "node neo4j.js",
+    "redis": "node redis.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "figlet": "^1.2.1",
+    "fs": "0.0.1-security",
+    "inquirer": "^6.2.2",
+    "mysql": "*",
+    "pg": "^7.9.0",
+    "redis": "^2.8.0",
+    "shelljs": "^0.8.3",
+    "sudo-js": "^1.0.2",
+    "sudo-prompt": "^8.2.5",
+    "tedious": "^6.1.0"
+  },
+  "bin": {
+    "creator": "./passwordcli.js"
+  }
+}
