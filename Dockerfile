@@ -8,6 +8,7 @@ RUN apt-get install --yes nodejs
 RUN apt-get install --yes build-essential
 
 COPY . .
+RUN npm install
 RUN npm start
 #RUN cd project && npm start
 EXPOSE 8080
