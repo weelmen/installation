@@ -30,7 +30,7 @@
     "inquirer": "^6.2.2",
     "mysql": "*",
     "pg": "^7.9.0",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "shelljs": "^0.8.3",
     "sudo-js": "^1.0.2",
     "sudo-prompt": "^8.2.5",
