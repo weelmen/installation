@@ -31,7 +31,7 @@
     "mysql": "*",
     "pg": "^7.9.0",
     "redis": "^2.8.0",
-    "shelljs": "^0.8.3",
+    "shelljs": "^0.8.5",
     "sudo-js": "^1.0.2",
     "sudo-prompt": "^8.2.5",
     "tedious": "^6.1.0"
